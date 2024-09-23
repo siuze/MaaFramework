@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.24)
 project(MaaFw)
-set(CMAKE_CXX_FLAGS "-static")
+# set(CMAKE_CXX_FLAGS "-static")
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake/modules")
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
